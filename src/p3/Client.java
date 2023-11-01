@@ -1,16 +1,16 @@
-package p2;
+package p3;
 
-public class Client<T> {
+public class Client implements Clientable<String> {
 
-    private T id;
+    private String id;
     private int sum;
 
-    public Client(T id, int sum) {
+    public Client(String id, int sum) {
         this.id = id;
         this.sum = sum;
     }
 
-    public T getId() {
+    public String getId() {
         return id;
     }
 

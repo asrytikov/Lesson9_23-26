@@ -1,16 +1,16 @@
-package p2;
+package p7;
 
-public class Client<T> {
+public class Client {
 
-    private T id;
+    private String id;
     private int sum;
 
-    public Client(T id, int sum) {
-        this.id = id;
+    public <T>Client(T id, int sum) {
+        this.id = id.toString();
         this.sum = sum;
     }
 
-    public T getId() {
+    public String getId() {
         return id;
     }
 

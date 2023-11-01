@@ -1,6 +1,6 @@
-package dz7;
+package dz8;
 
-public abstract class Phone {
+public abstract class Phone implements Callable, Informable{
 
    private String number;
    private String model;

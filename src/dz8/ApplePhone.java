@@ -1,4 +1,4 @@
-package dz7;
+package dz8;
 
 public class ApplePhone extends Phone{
 
@@ -9,5 +9,4 @@ public class ApplePhone extends Phone{
     public void info(){
         System.out.printf("Phone: model=%s, number=%s, weight=%.2f\n", this.getModel(), this.getNumber(), this.getWeight());
     }
-
 }

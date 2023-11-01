@@ -1,11 +1,11 @@
-package p2;
+package p6;
 
-public class Client<T> {
+public class Client<T, S> {
 
     private T id;
-    private int sum;
+    private S sum;
 
-    public Client(T id, int sum) {
+    public Client(T id, S sum) {
         this.id = id;
         this.sum = sum;
     }
@@ -14,11 +14,11 @@ public class Client<T> {
         return id;
     }
 
-    public int getSum() {
+    public S getSum() {
         return sum;
     }
 
-    public void setSum(int sum) {
+    public void setSum(S sum) {
         this.sum = sum;
     }
 }
